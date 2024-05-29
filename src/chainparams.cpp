@@ -98,8 +98,8 @@ public:
         consensus.nPowTargetTimespan = 16 * 60; // 16 minutes
         consensus.nPowTargetTimespanV2 = 4000;
         consensus.nRBTPowTargetTimespan = 1000;
-        consensus.nPowTargetSpacing = 2 * 64;
-        consensus.nRBTPowTargetSpacing = 32;
+        consensus.nPowTargetSpacing = 60 / 4;
+        consensus.nRBTPowTargetSpacing = 60 / 4;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = true;
         consensus.fPoSNoRetargeting = false;
